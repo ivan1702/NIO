@@ -24,7 +24,7 @@ public class BufferTest {
 	 * Èô×Ö·ûÎª0£¬ÔòÌæ»»Îª'.'
 	 * @param buffer
 	 */
-	private static void showBuffer(CharBuffer buffer){
+	public static void showBuffer(CharBuffer buffer){
 		StringBuilder sb = new StringBuilder();
 		for(int i=buffer.position(); i<buffer.limit(); i++){
 			char c = buffer.get(i);
