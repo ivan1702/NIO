@@ -1,4 +1,4 @@
-package com.ivan.nio.test.channel;
+package com.ivan.nio.test.channel.file;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
